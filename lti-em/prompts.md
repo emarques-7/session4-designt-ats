@@ -2,11 +2,11 @@
 
 As an expert prompt engineer and software architect.
 
-I need to create an ATS (Applicant-Tracking System) system for a startup company called LTI. The full cycle of this systems are:
+I need to create an ATS (Applicant-Tracking System) for a startup company called LTI. The full cycle of this system is:
 
 1. Creating Jobs
 2. Jobs published on Job boards, website, Social Media, etc
-3. Job Applications recieved
+3. Job Applications received
 4. Applications are reviewed
 5. Online Tests are conducted
 6. Interviews are scheduled
@@ -17,17 +17,17 @@ For this new system we need to create the following artifacts:
 * Software Brief description, its added value and competitive advantages
 * Explanation of main functions
 * Lean canvas diagram to illustrate the business model
-* Describe the 3 main uses cases with a diagram for each case
+* Describe the 3 main use cases with a diagram for each case
 * ER Data model with entities, attributes and relationships
 * High level system design, explanation and diagram
-* C4 diagram going deep into one of the system's component. Please ask me which one.
+* C4 diagram going deep into one of the system's components — ask the user to choose one component to diagram
 
 Your task is to create a prompt to accomplish these goals. Keep in mind the following:
 
-* All diagrams must be in mermaid format 
-* Create a unique document with all the information in markdown format with the name "LTI-em.md"
+* All diagrams must be in Mermaid format 
+* Create a unique document with all the information in Markdown format with the name "LTI-em.md"
 
-For C4 diagram, it showed me 5 different components and made me choose with one to diagram. I chossed "Application Review & Scoring Module"
+For the C4 diagram, it listed 5 different components and asked me to choose one to diagram. I chose "Application Review & Scoring Module"
 
 ---
 
@@ -52,7 +52,7 @@ The ATS covers the following end-to-end hiring lifecycle:
 
 Produce a **single Markdown document** named `LTI-em.md` containing ALL of the 
 following sections, in order. Every diagram MUST be written in valid **Mermaid** 
-syntax inside a mermaid code fence (```mermaid ... ```).
+syntax inside a mermaid code fence (` ```mermaid ... ``` `).
 
 ---
 
@@ -222,7 +222,7 @@ Now generate the complete `LTI-em.md` document following all instructions above.
 
 Can you please recheck the Lean Canvas diagram. When I try to open it in Mermaid Live Editor I got an error:
 
-```
+```text
 Error: Error: Parse error on line 5:
 ...    subgraph Row1[""]            P["**1
 -----------------------^

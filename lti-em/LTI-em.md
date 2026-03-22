@@ -13,17 +13,17 @@
 
 ## Table of Contents
 
-1. [Software Brief, Added Value & Competitive Advantages](#section-1)
-2. [Main Functions](#section-2)
-3. [Lean Canvas Diagram](#section-3)
-4. [Top 3 Use Cases with Diagrams](#section-4)
-5. [Entity-Relationship Data Model](#section-5)
-6. [High-Level System Design](#section-6)
-7. [C4 Diagram: Application Review & Scoring Module](#section-7)
+1. [Software Brief, Added Value & Competitive Advantages](#section-1--software-brief-added-value--competitive-advantages)
+2. [Main Functions](#section-2--main-functions)
+3. [Lean Canvas Diagram](#section-3--lean-canvas-diagram)
+4. [Top 3 Use Cases with Diagrams](#section-4--top-3-use-cases-with-diagrams)
+5. [Entity-Relationship Data Model](#section-5--entity-relationship-data-model)
+6. [High-Level System Design](#section-6--high-level-system-design)
+7. [C4 Diagram: Application Review & Scoring Module](#section-7--c4-diagram-application-review--scoring-module)
 
 ---
 
-## Section 1 — Software Brief, Added Value & Competitive Advantages {#section-1}
+## Section 1 — Software Brief, Added Value & Competitive Advantages
 
 ### Overview
 
@@ -62,7 +62,7 @@ Two additional advantages that differentiate LTI ATS further:
 
 ---
 
-## Section 2 — Main Functions {#section-2}
+## Section 2 — Main Functions
 
 ### Module 1 — Job Creation
 
@@ -178,7 +178,7 @@ Two additional advantages that differentiate LTI ATS further:
 
 ---
 
-## Section 3 — Lean Canvas Diagram {#section-3}
+## Section 3 — Lean Canvas Diagram
 
 The Lean Canvas below captures the business model of the LTI ATS product across all nine standard dimensions. It is structured to highlight the core problem being solved, the target customers, and the mechanisms through which LTI creates and captures value.
 
@@ -216,7 +216,7 @@ graph TD
 
 ---
 
-## Section 4 — Top 3 Use Cases with Diagrams {#section-4}
+## Section 4 — Top 3 Use Cases with Diagrams
 
 ### Use Case 1 — Job Creation & Multi-Channel Publishing
 
@@ -457,7 +457,7 @@ sequenceDiagram
 
 ---
 
-## Section 5 — Entity-Relationship Data Model {#section-5}
+## Section 5 — Entity-Relationship Data Model
 
 The ER model below captures all core entities of the LTI ATS, their key typed attributes, and the relationships that bind them. Cardinality is expressed using Crow's Foot notation as supported by Mermaid's `erDiagram`.
 
@@ -645,7 +645,7 @@ erDiagram
 
 ---
 
-## Section 6 — High-Level System Design {#section-6}
+## Section 6 — High-Level System Design
 
 ### 6.1 — Written Explanation
 
@@ -791,7 +791,7 @@ flowchart TD
 
 ---
 
-## Section 7 — C4 Diagram: Application Review & Scoring Module {#section-7}
+## Section 7 — C4 Diagram: Application Review & Scoring Module
 
 ### Level 1 — System Context Diagram
 
@@ -843,7 +843,7 @@ graph TD
 
         REDIS[("⚡ Redis Cache\nSession data,\nranked candidate lists,\nfrequent queries")]
 
-        MQ["📨 Message Queue\n(RabbitMQ / Kafka)\nApplication events,\nasync notifications"]
+        MQ["📨 Message Queue\n(Apache Kafka)\nApplication events,\nasync notifications"]
     end
 
     REC -->|"HTTPS"| WEBUI
